@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="id">
+    <style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    line-height: 1.6;
+    background-color: #e0f7fa; 
+    color: #333;
+}
+
+header {
+    background: url('GambarUTS/pntai.jpg') no-repeat center center/cover;
+    color: white;
+    text-align: center;
+    padding: 80px 20px;
+    position: relative;
+}
+
+header h1 {
+    font-size: 3em;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+header p {
+    font-size: 1.5em;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.5);
+}
+
+nav {
+    background: #00796b; 
+    color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    position: relative;
+}
+
+nav ul li a {
+    display: block;
+    padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover {
+    background: #004d40; 
+}
+
+
+nav ul li ul {
+    display: none;
+    position: absolute;
+    background: #004d40;
+    padding: 0;
+}
+
+nav ul li:hover ul {
+    display: block;
+}
+
+nav ul li ul li a {
+    padding: 10px 15px;
+}
+
+
+main {
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 40px;
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px); 
+}
+
+h2 {
+    color: #00796b; 
+    margin-bottom: 20px;
+    border-bottom: 2px solid #00796b; 
+    padding-bottom: 10px;
+}
+
+article {
+    margin-bottom: 20px;
+}
+
+article img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+article img:hover {
+    transform: scale(1.05); 
+}
+
+
+figure {
+    margin: 20px 0;
+}
+
+figure img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s;
+}
+
+figure img:hover {
+    transform: scale(1.05); 
+}
+
+figcaption {
+    text-align: center;
+    margin-top: 10px;
+    color: #555;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input, form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #00796b; 
+    border-radius: 4px;
+    transition: border-color 0.3s;
+}
+
+form input:focus, form textarea:focus {
+    border-color: #004d40; 
+}
+
+form button {
+    padding: 10px;
+    background: #00796b; 
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+form button:hover {
+    background: #004d40; 
+}
+
+aside {
+    background: #ffffff; 
+    padding: 20px;
+    border-radius:
+}
+
+footer {
+    text-align: center;
+    background: #333;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color:#00796b ;
+    padding: 10px;
+    width: 100%;
+}
+    </style>
+<head>
+    <link href='GambarUTS/Pariwisata_bangka_Belitung_Logo.jpg' rel="shortcut icon">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Website Wonders Of Bangka Belitung</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+    <script src="function.js"></script>
+    <header>
+        <h1>Wonders Of Bangka Belitung</h1>
+        <p>Temukan destinasi terbaik untuk liburan Anda!</p>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#beranda">Beranda</a></li>
+            <li><a href="#pariwisata">Pariwisata</a></li>
+            <li><a href="#galeri">Galeri</a></li>
+            <li><a href="#kontak">Kontak</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="beranda">
+            <h2>Beranda</h2>
+            <p>Selamat Datang di Wonders of Bangka Belitung!</p>
+            <p>Website ini adalah panduan Anda untuk menjelajahi keindahan alam dan budaya yang menakjubkan di Bangka Belitung. Terletak di sebelah timur Sumatra, Bangka Belitung dikenal dengan pantai-pantainya yang eksotis, batu granit yang ikonik, dan warisan budaya yang kaya.</p>
+            <p>Website ini bertujuan untuk memberikan informasi yang berguna dan inspirasi bagi Anda yang ingin menjelajahi keindahan Bangka Belitung. Temukan tips perjalanan, rekomendasi akomodasi, dan aktivitas menarik yang dapat Anda lakukan di setiap destinasi.</p>
+            <p>Bergabunglah dengan kami untuk merasakan pesona Bangka Belitung dan buatlah kenangan tak terlupakan di pulau yang indah ini!</p>
+        </section>
+        <section id="pariwisata">
+            <h2>Pariwisata</h2>
+            <article id="Pantai Tanjung Tinggi">
+                <h3>Pantai Tanjung Tinggi</h3>
+                <a href="https://regional.kompas.com/read/2022/12/27/222913878/pantai-tanjung-tinggi-di-belitung-daya-tarik-harga-tiket-dan-rute?page=all"><img src="GambarUTS/tanjung tinggi.jpg" alt="" width="30%" height="30%" /></a>
+                <p>Pantai Tanjung Tinggi adalah pantai sangat populer di Pulau Belitung, terutama sejak adanya film Laskar Pelangi. Pasalnya, Pantai Tanjung Tinggi merupakan salah satu lokasi pengambilan gambar film tersebut.</p>
+                <p>Pantai yang berlokasi di kepulauan belitung ini Pantai Tanjung Tinggi memiliki hamparan pasir putih yang lebut dan air laut berwarna hijau tosca yang sangat jernih. Kawasan pantai juga memiliki batu granitraksasa yang sangat ikonik. Luas Pantai Tanjung Tinggi sekitar 80 hektar. Dengan luas tersebut pengunjung memiliki kesempatan untuk mengeksplore lokasi pantai ini.</p>
+            </article>
+            <article id="Pantai Tikus Emas">
+                <h3>Pantai Tikus Emas</h3>
+                <a href="https://www.detik.com/sumbagsel/wisata/d-6970734/eksotisnya-pantai-tikus-emas-di-pesisir-timur-bangka"><img src="GambarUTS/pantai-tikus-emas-2_169.jpeg" alt="" width="30%" height="30%"/></a>
+                <p>Pantai Tikus Emas berjarak sekitar 45 menit perjalanan menggunakan minibus dari Bandara Depati Amir, Kota Pangkalpinang. Pengunjung bisa memanfaatkan jalan lintas timur yang relatif lebih sepi kendaraan. Di pantai ini, pengunjung bisa memanfaatkan berbagai wahana untuk liburan keluarga. Ada mainan mobil listrik, berkuda, banana boat, paintball, hingga jet ski. Kawasan pantai yang luas juga cocok dijadikan lokasi acara pertunjukan atau gathering kantoran. Pantai ini juga memiliki satu spot foto favorit, yaitu tikus emas setinggi 5 meter.</p>
+            </article>
+            <article id="Pesanggrahan Menumbing">
+                <h3>Pesanggrahan Menumbing</h3>
+                <a href="https://travel.kompas.com/read/2024/02/06/190700027/5-kegiatan-di-pesanggrahan-menumbing-bangka-barat-tempat-pengasingan-bung?page=all"><img src="GambarUTS/menumbing.jpg" alt="" width="30%" height="30%" /></a>
+                <p>Pesanggrahan Menumbing di puncak perbukitan Menumbing, Bangka Barat, Kepulauan Bangka Belitung merupakan salah satu tempat wisata sejarah. Di sinilah pernah diasingkan sejumlah tokoh pendiri bangsa, di antaranya sang proklamator Bung Karno dan Bung Hatta. Pesanggrahan Menumbing sekilas mirip bangunan benteng. Terdiri dari dari dua bangunan utama berbentuk kotak persegi, setinggi dua lantai yang menghadap langsung ke arah Mentok, ibu kota Bangka Barat. Karena berada di ketinggian sekitar 500 meter di atas permukaan laut (mdpl), maka udara di sana terasa lebih sejuk. Perbukitan Menumbing juga masih terjaga keasriannya.</p>
+            </article>
+            <article id="Danau Kaolin">
+                <h3>Danau Kaolin</h3>
+               <a href="https://regional.kompas.com/read/2022/06/11/224505978/danau-kaolin-bangka-belitung-daya-tarik-keunikan-dan-rute?page=all"><img src="GambarUTS/kaolin.jpeg" alt="" width="30%" height="30%" /></a>
+                <p>Danau Kaolin terletak di Desa Nibung, Kecamatan Koba, Kabupaten Bangka Tegah, Provinsi Bangka Belitung. Danau Kaolin berasal dari bekas tambang biji timah yang sudah lama ditinggalkan. Danau Kaolin kerap disebut dengan istilah Kulong Biru. Meskipun bekas tambang timah, Danau Kaolin memiliki udara yang segar tanpa terganggu aroma belerang, karena kawasan ini memang bukan kawah pegunungan. Danau Kaolin memiliki pemandangan yang berbeda dibandingkan danau lainnya. Hal ini membuat Danau Kaolin terlihat unik dibandingkan danau pada umumnya. Saat tiba di kawasan danau ini, wisatawan akan disambut dengan hamparan keindahan air yang biru dan jernih maupun bukit-bukit berwarna putih.</p>
+            </article>
+            <article id="Museum Timah">
+                <h3>Museum Timah</h3>
+                <a href="https://travel.kompas.com/read/2024/02/03/190700927/sejarah-isi-dan-jam-buka-museum-timah-indonesia-di-pangkalpinang"><img src="GambarUTS/Museum_Timah.jpg" alt="" width="30%" height="30%" /></a>
+                <p>Museum Timah Indonesia di Kota Pangkalpinang, Kepulauan Bangka Belitung, masih eksis hingga saat ini. Tidak hanya isi di dalamnya yang sarat muatan sejarah. Bangunan museum pun merupakan bangunan tua yang dibangun sejak zaman Belanda. Alhasil berkunjung ke museum timah seakan menyelami kembali kehidupan di Bangka yang erat kaitannya dengan pertambangan. Maka tidak berlebihan rasanya kalau dikatakan belum lengkap kunjungannya di Bangka kalau belum ke museum timah.</p>
+            </article>
+        </section>
+        <section align="center" id="galeri">
+            <h2>Galeri</h2>
+            <figure>
+                <a href="https://www.tripadvisor.co.id/Attraction_Review-g668845-d3570284-Reviews-Tanjung_Tinggi_Beach-Belitung_Island_Bangka_Belitung_Islands_Sumatra.html"><img src="GambarUTS/pantai-tanjung-tinggi2.jpg" alt="" width="40%" height="40%" /></a>
+                <figcaption>Pantai Tanjung Tinggi</figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.tripadvisor.co.id/Attraction_Review-g15246305-d15239476-Reviews-Tikus_Emas_Beach-Parit_Padang_Bangka_Belitung_Islands_Sumatra.html"><img src="GambarUTS/tikus emass.jpg" alt="" width="40%" height="40%" /></a>
+                <figcaption>Pantai Tikus Emas</figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.tripadvisor.co.id/Attraction_Review-g1235330-d4753496-Reviews-Bukit_Menumbing-Muntok_Bangka_Belitung_Islands_Sumatra.html"><img src="GambarUTS/menumbing22.jpg" alt="" width="40%" height="40%"></a>
+                <figcaption>Pesanggrahan Bukit Menumbing</figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.tripadvisor.co.id/Attraction_Review-g1234796-d10592674-Reviews-Kaolin_Lake-Pangkal_Pinang_Bangka_Island_Bangka_Belitung_Islands_Sumatra.html"><img src="GambarUTS/Terpukau Cantiknya Biru Danau Kaolin Bangka (6).jpg" alt="" width="40%" height="40%"></a>
+                <figcaption>Danau Kaolin</figcaption>
+            </figure>
+            <figure>
+                <a href="https://www.tripadvisor.co.id/Attraction_Review-g1234796-d4972783-Reviews-Tin_Museum-Pangkal_Pinang_Bangka_Island_Bangka_Belitung_Islands_Sumatra.html"><img src="GambarUTS/timah2.jpg" alt="" width="40%" height="40%"></a>
+                <figcaption>Museum Timah</figcaption>
+                </figure>
+        </section>
+        <section id="kontak">
+            <h2>Kontak</h2>
+            <p>Jika Kamu mempunyai pertanyaan atau masukan, silahkan diisi pada pesan di bawah ini </p>
+            <form onsubmit="return validasiKontak(this)">
+                <input type="text" id="Nama" placeholder="Masukan Nama Anda..."/>
+                <input type="email" id="Email" placeholder="Masukan Email Anda..."/>
+                <input type="tel" id="Nomor" placeholder="Masukan Nomor Anda..."/>
+                <textarea name="alamat" cols="20" rows 4 placeholder="Masukkan Alamat Anda..."></textarea>
+                <textarea id="Pesan" name="Pesan" rows="4" placeholder="Masukan Pesan Anda...."></textarea>
+                <button type="submit">Submit</button>
+                </form>
+                <footer> 
+                <p>
+                    Haikal Anugrah | Teknologi Informasi | 2023
+                </p>
+            </footer>
